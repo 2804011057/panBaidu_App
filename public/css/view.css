@@ -1,0 +1,42 @@
+.list-group a span{
+    width: 15px;
+    height: 15px;
+    content: "\e906";
+    margin-left: 15px;
+    font-size: 13px;
+}
+.btn-default span{
+    margin-left: 6px;
+}
+.btn-default{
+    line-height: 20px;
+}
+.btn-default em{
+    font-size: 16px;
+}
+.list-group-item:hover{
+   cursor: pointer;
+}
+.list-group-item p{
+
+    display: none;
+}
+
+.on p{
+    display: block;
+}
+.right-menu{
+    margin-top: 20px;
+}
+[data-ug-right='true']{
+    height:800px;
+    background: #fff;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+[data-ug-right='true'] .list-group{
+    margin-top: 20px;
+}
+[date-ug='true']{
+    margin-left: 29px;
+}

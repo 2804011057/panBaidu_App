@@ -1,0 +1,208 @@
+@CHARSET "UTF-8";
+*{
+	margin:0px;
+	padding:0px;
+	
+}
+body{
+	font-family:"microsoft Yahei";
+	background-color:#eff4f8
+	
+}
+ul,li{
+	list-style:none;
+    text-align: center;
+}
+html{
+	width:100%;
+	heihgt:100%;
+	
+}
+.login-main{
+	width:1920px;
+	height:720px;
+	position:relative
+}
+li.index-body-content{
+	width:1920px;
+	height:720px;
+	position:absolute;
+	left:0px;
+	top:0px;
+	display:none;
+	overflow:hidden;
+	
+}
+.index-body-content img{
+	transform: matrix(1, 0, 0, 1, 0, 0);
+    transition: all 500ms linear;
+}
+.index-body-content img:hover{
+	transform: matrix(1.05, 0, 0, 1.05, 3, 0.25);
+	
+}
+.body-content-word{
+	
+	position:absolute;
+	top:500px;
+	left:400px;
+	font-size:50px;
+	color:#fff;
+	z-index:999;
+}
+li.show{
+
+	display:block;
+}
+li.index-body-content img{
+	width:100%;
+	height:120%;
+	
+}
+.focus-anchor {
+	width:120px;
+	height:20px;
+	left:50%;
+	margin-left:-50px;
+	position:absolute;
+
+	bottom:20px;
+}
+.focus-anchor span{
+	width:12px;
+	height:12px;
+	border-radius:10px;
+	background:#fff;
+	display:inline-block;
+	margin-left:8px;
+	opacity:.7;
+}
+span.hidefocus{
+	opacity:1;
+}
+.login-middle{
+	width:352px;
+	height:400px;
+	background:#fff;
+	position:absolute;
+	top:200px;
+	right:440px;
+	z-index:2;
+	border-radius:4px;
+}
+.login-header-title{
+	height:91px;
+	width:100%;
+	text-align:center;
+	line-height:91px;
+	    font-size: 18px;
+
+    color: #333;
+    font-weight: 100;
+}
+.tang-pass-login{
+	height:200px;
+	width:100%;
+}
+.tang-pass-login .userNamePassWordWrapper input{
+	height:36px;
+	width:78%;
+	display:block;
+	margin-left:30px;
+	
+	outline:none;
+	border:1px solid #ddd;
+	margin-top:.5px;padding-left:10px;
+	background:#faffbd;
+}
+.warmMessage{
+
+    height:36px;
+    width:78%;
+    margin-left:30px;
+    color: #ff002e;
+}
+.tang-pass-login .userNamePassWordWrapper input.userName{
+	
+	    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom:none;
+}
+.tang-pass-login .userNamePassWordWrapper input.passWord{
+	
+	    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+#submit{
+	height:41px;
+	width:84%;
+	background:#3582f8;
+	margin-left:30px;
+	display:block;
+	color:#fff;
+	line-height:33px;
+	border-radius:4px;
+	outline:none;
+	border: 0;
+	margin-top:30px;
+	cursor:pointer;
+	font-size:20px;
+}
+.remeberCheck{
+	margin-left:30px;
+	margin-top:30px;
+}
+.login-download{
+
+	width:950px;
+	margin:0 auto;
+	height:90px;
+	margin-top:40px;
+}
+.login-download ul li{
+		float:left;
+		width:90px;
+		height:70px;
+		margin-left:100px;
+}
+.login-download ul li:hover{
+	
+	opacity:.7;
+}
+.window{
+	background:url(../img/login.png) -500px -70px no-repeat;
+	
+	
+}
+.android{
+
+	background:url(../img/login.png) -320px -0px no-repeat;
+}
+.iphone{
+
+	background:url(../img/login.png) -270px -160px no-repeat;
+}
+.iPad{
+
+	background:url(../img/login.png) -500px -0px no-repeat;
+}
+.MAC{
+
+	background:url(../img/login.png) -180px -160px no-repeat;
+}
+
+#login-header{
+	
+	width:100%;
+	height:60px;
+	position:absolute;
+	top:0px;
+	left:0px;
+	z-index:10;
+}
+.logo{
+	
+	width:181px;
+	height:51px;
+	    margin: 10px 0 0 25px;
+}

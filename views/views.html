@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<link href="/public/css/bootstrap.css" rel="stylesheet" type="text/css">
+<link href="/public/css/disk.header.css" rel="stylesheet" type="text/css">
+<link href="/public/css/iconfont.css" rel="stylesheet" type="text/css">
+<link href="/public/css/view.css" rel="stylesheet" type="text/css">
+    <!--<link href="/public/css/bootstrap-theme.min.css" rel="stylesheet" type="text/css">-->
+<body>
+<form action="/fileupload" method="post" enctype='multipart/form-data' >
+    <label for="resource">上传文档</label>
+    <input type="file" id="resource" name="resource">
+    <button type="submit">上传</button>
+</form>
+
+<a href="download/kkk">下载文件</a>
+<div class="container-fluid">
+
+    <nav aria-label="...">
+
+        <ul class="pager">
+            <li ><img src="public/img/logo.png"/></li>
+
+            <button type="button" class="btn btn-default" date-ug="true">欢迎来到百度网盘</button>
+            <button type="button" class="btn btn-default" id="return">退出</button>
+        </ul>
+    </nav>
+    <div class="row">
+        <div class="col-md-2 right-menu"> <ul class="list-group">
+            <li class="list-group-item on"><span node-type="img-ico" class="icon icon-disk"></span><span  style="margin-left:5px">全部文件</span>
+                <p style='position: absolute;width: 100%;top:0px;left: 0px;height:100%;background: #fff;opacity: .3'></p>
+            </li>
+            <li class="list-group-item">图片
+                <p style='position: absolute;width: 100%;top:0px;left: 0px;height:100%;background: #fff;opacity: .3'></p>
+            </li>
+            <li class="list-group-item">文档
+                <p style='position: absolute;width: 100%;top:0px;left: 0px;height:100%;background: #fff;opacity: .3'></p>
+            </li>
+            <li class="list-group-item">视频
+                <p style='position: absolute;width: 100%;top:0px;left: 0px;height:100%;background: #fff;opacity: .3'></p>
+            </li>
+            <li class="list-group-item">种子
+                <p style='position: absolute;width: 100%;top:0px;left: 0px;height:100%;background: #fff;opacity: .3'></p>
+            </li>
+            <li class="list-group-item">音乐
+                <p style='position: absolute;width: 100%;top:0px;left: 0px;height:100%;background: #fff;opacity: .3'></p>
+            </li>
+            <li class="list-group-item">其它
+                <p style='position: absolute;width: 100%;top:0px;left: 0px;height:100%;background: #fff;opacity: .3'></p>
+            </li>
+            <li class="list-group-item"><span class="g-button-right"><em class="icon icon-my-share" title="我的分享"></em><span class="text" style="width: auto;margin-left: 5px">我的分享</span></span>
+                <p style='position: absolute;width: 100%;top:0px;left: 0px;height:100%;background: #fff;opacity: .3'></p>
+            </li>
+
+            <li class="list-group-item"><span class="g-button-right"><em style="width: auto;margin-right: 5px" class="icon icon-delete" title="回收站"></em><span class="text" style="width: auto;margin-left: 5px">回收站</span></span>
+                <p style='position: absolute;width: 100%;top:0px;left: 0px;height:100%;background: #fff;opacity: .3'></p>
+            </li>
+        </ul></div>
+        <div class="col-md-9" data-ug-right="true">
+            <ul class="list-group">
+                <a class="btn btn-default" href="#" role="button" style="color: #fff;background: #574ab8;width: 88px;text-align: left;    font-size: 16px;"><em class="icon icon-upload"></em><span>上传</span></a>
+
+                <button class="btn btn-default" type="submit"><em class="icon icon-newfolder" title="新建文件夹"></em><span class="text" style="width: auto;">新建文件夹</span></button>
+                <button class="btn btn-default" type="submit"><span class="g-button-right"><em class="icon icon-download" title="离线下载"></em><span class="text" style="width: auto;">离线下载</span></span></button>
+                <button class="btn btn-default" type="submit"><span class="g-button-right"><em class="icon icon-device" title="我的设备"></em><span class="text" style="width: auto;">我的设备</span></span></button>
+            </ul>
+        </div>
+    </div>
+
+</div>
+
+</body>
+<script src="../public/lib/jquery.js"></script>
+<script src="../public/lib/jquery.cookie.js"></script>
+<script src="../public/gruntJs/unic.js"></script>
+<script src="../public/gruntJs/views.js"></script>
+</html>
